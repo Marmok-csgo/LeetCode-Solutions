@@ -1,4 +1,28 @@
-﻿public class Solution
+﻿public class ListNode
+{
+    public int val;
+    public ListNode next;
+
+    public ListNode()
+    {
+        val = 0;
+        next = null;
+    }
+
+    public ListNode(int val)
+    {
+        this.val = val;
+        next = null;
+    }
+
+    public ListNode(int val, ListNode next)
+    {
+        this.val = val;
+        this.next = next;
+    }
+}
+
+public class Solution
 {
     public ListNode MergeTwoLists(ListNode list1, ListNode list2)
     {
