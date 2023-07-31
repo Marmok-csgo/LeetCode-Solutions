@@ -1,1 +1,1 @@
-# GitHubAcc
+# LeetCode Solutions
